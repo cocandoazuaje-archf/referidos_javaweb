@@ -14,6 +14,35 @@
                 cursor: pointer;
             }
         </style>
+        <title>Sistema Referidos RRVV</title>
+        <link href="css/bootstrap.min.css?v_24092019" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.css?v_24092019" rel="stylesheet">
+
+        <link href="css/plugins/datapicker/datepicker3.css?v_24092019" rel="stylesheet">
+        <link href="css/plugins/toastr/toastr.min.css?v_24092019" rel="stylesheet">
+        <link href="css/animate.css?v_24092019" rel="stylesheet">
+        <link href="css/style.css?v_24092019" rel="stylesheet">
+        <link href="css/plugins/clockpicker/clockpicker.css?v_24092019" rel="stylesheet">
+        <link href="css/plugins/steps/jquery.steps.css?v_24092019" rel="stylesheet">
+        <link href="css/plugins/iCheck/custom.css?v_24092019" rel="stylesheet">
+
+        <link href="css/plugins/touchspin/jquery.bootstrap-touchspin.min.css?v_24092019" rel="stylesheet">
+        <link href="css/plugins/dataTables/datatables.min.css?v_24092019" rel="stylesheet">
+        <script type="text/javascript" src="js/keycloak2.js"></script>
+        <script src="js/jquery-3.1.1.min.js?v_24092019"></script>
+        <link href="css/highcharts.css?v_24092019" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="angular/angular-material.min.css">
+        <script type="text/javascript" src="angular/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="WEB-INF/js/todoControler.js" type="text/javascript"></script>
+        <!-- angular-material animate -->
+        <script src="angular/angular-animate.min.js"></script>
+        <script src="angular/angular-aria.min.js"></script>
+        <script src="angular/angular-messages.min.js"></script>
+
+        <!-- Angular Material Library -->
+        <script src="angular/angular-material.min.js"></script>
+
     </head>
     <body ng-controller="MainCtrl as vm">
         <h2>AngularJS corriendo en navegador</h2>
@@ -22,20 +51,104 @@
         <button ng-click="vm.saludar()">Saludar</button>
         <p>{{ vm.mensaje}}</p>
         <script>
-                    'use strict';
-                    var app = angular.module('app', []);
-                    app.controller('MainCtrl', function () {
+//                    var app = angular.module('app', []);
+//                    app.controller('todoControler', function () {
+//
+//                        var vm = this;
+//                        vm.nombre = "";
+//                        vm.mensaje = "Esperando...";
+//
+//                        vm.saludar = function () {
+//                            alert("redeploy v.6 -> AngularJS está funcionando correctamente!");
+//
+//                        };
+//                    });
 
-                        var vm = this;
-                        vm.nombre = "";
-                        vm.mensaje = "Esperando...";
+        </script>
+    <scrip 
 
-                        vm.saludar = function () {
-                            alert("AngularJS está funcionando correctamente!");
+        <!-- Mainly scripts -->
+    <script src="js/bootstrap.min.js?v_24092019"></script>
+        <script src="js/plugins/datapicker/bootstrap-datepicker.js?v_24092019"></script>
+        <!-- Clock picker -->
+        <script src="js/plugins/clockpicker/clockpicker.js?v_24092019"></script>
+        <!-- Date range use moment.js same as full calendar plugin -->
+        <script src="js/plugins/fullcalendar/moment.min.js?v_24092019"></script>
+        <script src="js/plugins/metisMenu/jquery.metisMenu.js?v_24092019"></script>
+        <script src="js/plugins/slimscroll/jquery.slimscroll.min.js?v_24092019"></script>
+        <script src="js/plugins/dataTables/datatables.min.js?v_24092019"></script>
+        <!-- Custom and plugin javascript -->
+        <script src="js/inspinia.js?v_24092019"></script>
+        <script src="js/plugins/pace/pace.min.js?v_24092019"></script>
+        <!-- <script src="angular/ui-bootstrap-tpls.js"></script> -->
+        <script src="angular/angular-ui-utils.min.js"></script>
+        <!-- <script src="angular/dataTables.bootstrap.min.js"></script> -->
+        <script type="text/javascript" src="angular/angular-resource.js"></script>
+        <script type="text/javascript" src="angular/angular-route.js"></script>
+        <script type="text/javascript" src="angular/angular-cookies.js"></script>
+        <script type="text/javascript" src="angular/angular-js-xlsx.js"></script>
+        <script type="text/javascript" src="angular/xlsx.core.min.js"></script>
 
-                        };
+        <!-- Sweet alert -->
+        <script src="js/sweetalert.min.js"></script>
+        <!-- <script src="js/plugins/sweetalert/sweetalert.min.js"></script> -->
+
+        <script type="text/javascript" src="app.js"></script>
+        <script src="js/plugins/toastr/toastr.min.js?v_24092019"></script>
+        <script src="js/plugins/steps/jquery.steps.min.js?v_24092019"></script>
+        <script src="js/plugins/iCheck/icheck.min.js?v_24092019"></script>
+        <script src="js/plugins/touchspin/jquery.bootstrap-touchspin.min.js?v_24092019"></script>
+        <script src="js/highcharts/highcharts.js?v_24092019"></script>
+        <script src="js/highcharts/exporting.js?v_24092019"></script>
+        <!-- ChartJS-->
+        <script src="js/plugins/chartJs/Chart.min.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Sucursales.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Bitacoras.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/BitacorasByReferencia.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ReferenciasNoCerradas.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/DerivarMasivo.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Referencias.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ReferenciasReagendadas.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Canales.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Ejecutivos.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Referidos.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ReferenciasNoCerradasFull.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/RolesUsuariosNombre.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/RolesUsuarios.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/VerificaReferenciaActiva.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ImportarReferidos.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ImportarSucursalesEjecutivos.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ImportarSucursales.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ImportarRolesUsuarios.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Acciones.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/Sucursales.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ActualizarReferidosSi.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ActualizarReferidosNo.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ReferenciasReagendadasFull.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ExportarDatatable.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/ExportarReferidos.js?v_24092019"></script>
+        <script type="text/javascript" src="domain/PanelTotales.js?v_24092019"></script>
+        <script type="text/javascript" src="controllers/todoController.js?v_24092019"></script>
+        <script type="text/javascript" src="//unpkg.com/xlsx/dist/xlsx.full.min.js?v_24092019"></script>
+        <script>
+                    $(function () {
+                        toastr.options = {
+                            "closeButton": true,
+                            "debug": false,
+                            "progressBar": true,
+                            "preventDuplicates": false,
+                            "positionClass": "toast-top-right",
+                            "onclick": null,
+                            "showDuration": "400",
+                            "hideDuration": "1000",
+                            "timeOut": "2000",
+                            "extendedTimeOut": "1000",
+                            "showEasing": "swing",
+                            "hideEasing": "linear",
+                            "showMethod": "fadeIn",
+                            "hideMethod": "fadeOut"
+                        }
                     });
-
         </script>
     </body>
 </html>
