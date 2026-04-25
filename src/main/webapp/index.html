@@ -6,7 +6,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
         <style>
             body {
-                font-family: Arial;  
+                font-family: Arial;
                 margin: 40px;
             }
             button {
@@ -24,7 +24,18 @@
         <script>
                     'use strict';
                     var app = angular.module('app', []);
-                
+                    app.controller('MainCtrl', function () {
+
+                        var vm = this;
+                        vm.nombre = "";
+                        vm.mensaje = "Esperando...";
+
+                        vm.saludar = function () {
+                            alert("AngularJS está funcionando correctamente!");
+
+                        };
+                    });
+
         </script>
     </body>
 </html>
