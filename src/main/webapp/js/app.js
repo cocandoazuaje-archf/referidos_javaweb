@@ -11,7 +11,7 @@ app.controller('MainCtrl', function () {
     vm.mensaje = "Esperando...";
 
     vm.saludar = function () {
-        alert("AngularJS -> 6, está funcionando correctamente!");
+        alert("AngularJS -> 10, está funcionando correctamente!");
 
     };
 });
